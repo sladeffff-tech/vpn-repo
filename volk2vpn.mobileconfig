@@ -7,7 +7,49 @@
         <dict>
             <key>PayloadType</key>
             <string>com.apple.vpn.managed</string>
+            <key>PayloadUUID</key><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.vpn.managed</string>
             <key>PayloadUUID</key>
+            <string>E85A4E6A-3D3F-4A59-9F23-123456789ABC</string>
+            <key>PayloadIdentifier</key>
+            <string>com.volk2vpn.config</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>VOLK2 VPN</string>
+            <key>VPNType</key>
+            <string>L2TP</string>
+            <key>AuthName</key>
+            <string>vpnuser</string>
+            <key>AuthPassword</key>
+            <string>vpnpassword123</string>
+            <key>RemoteAddress</key>
+            <string>72.56.65.245</string>
+            <key>SharedSecret</key>
+            <string>sharedsecret</string>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>VOLK2 VPN Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.volk2vpn.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>ABCDEF12-3456-7890-ABCD-EF1234567890</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
             <string>VOLK2-VPN-CONFIG</string>
             <key>PayloadIdentifier</key>
             <string>com.volk2vpn.config</string>
@@ -42,4 +84,5 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
+
 </plist>
